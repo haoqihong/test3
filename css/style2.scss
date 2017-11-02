@@ -1,0 +1,37 @@
+.swiper-container{
+	width: 100%;
+}
+.box{
+	margin: 8px 2.5%;
+	width: 95%;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	p{
+		&:nth-child(1){
+			padding: 5px 10px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			color: #fff;
+			img{
+				width: 10px;
+				height: 15px;
+			}
+			b{
+				font-size: 36px;
+				margin-left: 20px;
+			}
+			span{
+				float: right;
+				margin-top: 20px;
+				font-size: 20px;
+			}
+		}
+		&:nth-child(2),&:nth-child(3){
+			padding: 3px 10px;
+			i{
+				margin-right: 5px;
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+body {
+  font-size: .12rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+#wrapper {
+  -webkit-flex: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  #wrapper .nav {
+    width: 100%;
+    padding: 0 15%;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box; }
+    #wrapper .nav ul {
+      display: -webkit-flex;
+      align-items: center;
+      text-align: center; }
+      #wrapper .nav ul li {
+        -webkit-flex: 1;
+        text-align: center;
+        padding: 10px 0; }
+        #wrapper .nav ul li.active {
+          color: skyblue;
+          border-bottom: 2px solid skyblue; }
+
+/*# sourceMappingURL=style1.css.map */
